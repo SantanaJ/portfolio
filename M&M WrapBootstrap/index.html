@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JS - Portfolio</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- FAVICON-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/images/favicon/android-chrome-192x192.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="assets/images/favicon/manifest.json" />
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-TileImage" content="/assets/images/favicon/mstile-144x144.png" />
+    <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- MAIN STYLESHEETS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/theme.min.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container text-center">
+            <a href="index.html">
+                <img src="assets/images/logo/logo.png" alt="logo" class="logo" />
+            </a>
+            <a data-toggle="collapse" data-target="#side-menu" class="toggle-menu menu-right pull-right push-body nav-icon">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="collapse navbar-collapse center-block">
+                <ul class="navbar-nav navigation-symbol">
+                    <li>
+                        <a href="#team">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#services">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="#works">WORKS</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="side-menu" class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right text-left">
+                <img src="assets/images/logo/logo-light.png" alt="Logo" />
+                <a href="#" class="close-menu">
+                    <i class="icon ion-ios-close-empty icon-close menu-close-btn"></i>
+                </a>
+                <ul class="nav">
+                    <li>
+                        <a href="#team">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#services">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="#works">WORKS</a>
+                    </li>
+                    <!-- <li>
+                        <a href="#team">TEAM</a>
+                    </li> -->
+                    <!-- <li>
+                        <a href="#testimonials">TESTIMONIALS</a>
+                    </li> -->
+                    <!-- <li>
+                        <a href="#blog">BLOG</a>
+                    </li> -->
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="expander">MORE
+                            <i class="caret"></i>
+                        </a>
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    <a href="blog.html">BLOG</a>
+                                </li>
+                                <li>
+                                    <a href="blog-post-single.html">POST</a>
+                                </li>
+                                <li>
+                                    <a href="blog-post-single-sidebar.html">POST SIDEBAR </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li> -->
+                </ul>
+                <p class="copyright">COPYRIGHT © 2015</p>
+            </div>
+        </div>
+    </nav>
+    <div class="go-top">
+        <i class="ion-android-arrow-dropup-circle"></i>
+    </div>
+    <div class="full-height">
+        <div id="head_panel_slider" class="owl-carousel">
+            <div class="item full-height vertical-middle text-center section-overlay-dark background-slide-5">
+                <div class="inner animated fadeIn minimal-white with-cross">
+                    <i></i>
+                    <h2>UX Designer</h2>
+                    <span class="animated fadeInUp">
+                        <b>JASMINE SANTANA</b>
+                    </span>
+                </div>
+            </div>
+            <div class="item full-height vertical-middle text-center section-overlay-dark background-slide-4">
+                <div class="inner animated fadeIn minimal-white with-cross">
+                    <i></i>
+                    <h2>WEB DEVELOPER</h2>
+                    <span class="animated fadeInUp">
+                        <b>JASMINE SANTANA</b>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="team" class="section section-dark text-center">
+        <div class="container">
+            <header class="section-head">
+                <span>1</span>
+                <h2>ABOUT ME</h2>
+                <p>Hi, I'm Jasmine Santana.</p>
+            </header>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 team-intro">
+                    <span></span>
+
+                    <p>I'm a graduate of the University of Central Florida with a degree in Interdisciplinary Studies, and a
+                        colorful background in full stack development and marketing. My passion lies in simple but effective
+                        user interface and creating impressionable user experiences. I am data &amp; user driven.
+                        <br>
+                        <br>
+                        <center>
+                            <strong>I love Strategy and Design.</strong>
+                        </center>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section section-dark text-center section-overlay-dark ">
+        <div class="container">
+            <header class="section-head">
+                <span>2</span>
+                <h2>SKILLS</h2>
+                <p>My craft &amp; hobby</p>
+            </header>
+            <div class="row">
+                <div data-os-animation="fadeInUp" data-os-animation-delay="0s" class="col-md-3 os-animation">
+                    <div class="icon-block icon-block-dark">
+                        <i class="ion-ios-lightbulb-outline"></i>
+                        <h3>UX DESIGN</h3>
+                        <p>User Research, Sitemaps, User-Flows, Wireframes, Prototypes, User Profiles, User Testing, Sketch,
+                            Balsalmiq, InVision prototyping.</p>
+                    </div>
+                </div>
+                <div data-os-animation="fadeInUp" data-os-animation-delay=".1s" class="col-md-3 small-screen-margin-top os-animation">
+                    <div class="icon-block icon-block-dark">
+                        <i class="ion-ios-lightbulb-outline"></i>
+                        <h3>MARKETING</h3>
+                        <p>Logos, Package Design, and Advertising</p>
+                    </div>
+                </div>
+                <div data-os-animation="fadeInUp" data-os-animation-delay=".2s" class="col-md-3 small-screen-margin-top os-animation">
+                    <div class="icon-block icon-block-dark">
+                        <i class="ion-ios-lightbulb-outline"></i>
+                        <h3>WEB DESIGN</h3>
+
+
+                        <p>REACT.js, Sass, Wordpress, Heroku, HTML5, CSS, and Bootstrap</p>
+                    </div>
+                </div>
+                <div data-os-animation="fadeInUp" data-os-animation-delay=".3s" class="col-md-3 small-screen--top os-animation">
+                    <div class="icon-block icon-block-dark">
+                        <i class="ion-ios-lightbulb-outline"></i>
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Node, JavaScript, MySQL, Express, and JQuery</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="section section-dark section-nopadding-bottom text-center ">
+        <div class="container-fluid">
+            <header class="section-head">
+                <span>3</span>
+                <h2>WORKS</h2>
+                <p>Selected projects and case studies</p>
+            </header>
+            <div id="content">
+                <article>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="portfolio-container">
+                                <div data-padding="0" data-col-xs="1" data-col-sm="2" data-col-md="2" data-col-lg="3" data-layout="masonry" data-title="Show"
+                                    class="portfolio isotope masonry use-masonry">
+
+
+                                    <div data-menu-order="2" data-title="Show" class="masonry-item portfolio-item isotope-item masonry-normal filter-masonry filter-case-study">
+                                        <a href="#work-gallery" data-slideID="0" class="open-gallery-link">
+                                            <img src="assets/images/Tlogo.jpg" alt="Title" />
+                                            <div class="portfolio-item-overlay">
+                                                <div class="portfolio-overlay-inner">
+                                                    <span>CASE STUDY</span>
+                                                    <h2>An App For Park Rangers
+                                                        <i></i>
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div data-menu-order="2" data-title="Show" class="masonry-item portfolio-item isotope-item masonry-normal filter-masonry filter-print">
+                                        <a href="#work-gallery" data-slideID="1" class="open-gallery-link">
+                                            <img src="assets/images/Eslogo.png" alt="Title" />
+                                            <div class="portfolio-item-overlay">
+                                                <div class="portfolio-overlay-inner">
+                                                    <span>Case Study</span>
+                                                    <h2>The main page for ESMotorsports</h2>
+                                                    <i></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div data-menu-order="2" data-title="Show" class="masonry-item portfolio-item isotope-item masonry-normal filter-masonry filter-logo">
+                                        <!-- <a href="#work-gallery" data-slideID="0" class="open-gallery-link"> -->
+                                            <img src="assets/images/Glogo.png" alt="Title" />
+                                            <div class="portfolio-item-overlay">
+                                                <div class="portfolio-overlay-inner">
+                                                    <span>COMING SOON (Case Study)</span>
+                                                    <h2>An App for Undergraduate students</h2>
+                                                    <i></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div id="work-gallery" class="mfp-hide">
+                                    <div data-slideid="0" class="slide">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center modal-intro">
+                                                <div class="container">
+
+                                                    <span>TRAILS</span>
+                                                    <h3>UX CASE STUDY</h3>
+                                                    <p>An App for Park Rangers &amp; Hikers. </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="row">
+
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>OVERVIEW</h3>
+                                                    </b>
+                                                    <img src="assets/images/Troverview.png" width="1100" height="100" alt="Work Image" />
+                                                    <center>
+                                                        <b>
+                                                            <h4>Try the final prototype below!</h4>
+                                                    </center>
+                                                    </b>
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>CLIENT PROFILE</h3>
+                                                    </b>
+                                                    <img src="assets/images/tprof.png" width="1020" height="90" alt="Work Image" />
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>SITE MAP</h3>
+                                                    </b>
+                                                    <img src="assets/images/Tsitemap.png" alt="Work Image" />
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>USERFLOW</h3>
+                                                    </b>
+                                                    <center>
+                                                        <img src="assets/images/Tflow.png" alt="Work Image" />
+                                                    </center>
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>WIREFRAMES</h3>
+                                                    </b>
+                                                    <center>
+                                                        <img src="assets/images/Tfirst.png" width="600" height="80" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/Tsecond.png" width="600" height="80" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/Tthird.png" width="600" height="80" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/Tfourth.png" width="600" height="80" alt="Work Image"
+                                                        />
+                                                    </center>
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>SCREENS</h3>
+                                                    </b>
+                                                    <center>
+                                                        <img src="assets/images/T1.png" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/T2.png" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/T3.png" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/T4.png" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/T5.png" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/T6.png" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>INVISION PROTOTYPE</h3>
+                                                    </b>
+
+                                                    <center>
+                                                        <iframe width="438" height="930" src="http://invis.io/M8NU64CDAYW" frameborder="0"
+                                                            allowfullscreen></iframe>
+                                                    </center>
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                        <b>
+                                                            <h3>USER TESTING</h3>
+                                                        </b>
+                                                        <center>
+                                                            <img src="assets/images/Tutest.png" width="900" height="100" alt="Work Image" />
+                                                        </center>
+    
+                                                    </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-slideid="1" class="slide">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center modal-intro">
+                                                <div class="container">
+                                                   
+                                                    <span>ES MOTORSPORTS</span>
+                                                    <h3>Case Study</h3>
+                                                    <p>Main Source Webpage for ES Motorsports.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>OVERVIEW</h3>
+                                                    </b>
+                                                    <center><img src="assets/images/esover.png" width="1000" height="100" alt="Work Image" /></center>
+                                                    
+                                                        
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                        <b>
+                                                            <h3>THE PROBLEM</h3>
+                                                        </b>
+                                                        <center>
+                                                        <img src="assets/images/Problem.png" width="900" height="90" alt="Work Image" />
+                                                        <img src="assets/images/ProbW.png" width="900" height="90" alt="Work Image" />
+                                                        <img src="assets/images/SWOT1.png" width="900" height="90" alt="Work Image" />
+                                                        </center>
+                                                        
+    
+                                                    </div>
+                                                    <div class="col-md-12 margin-top">
+                                                            <b>
+                                                                <h3>THE RESEARCH</h3>
+                                                            </b>
+                                                            <center><img src="assets/images/rechart.png" width="900" height="80" alt="Work Image" /></center>
+                                                            <center><img src="assets/images/RES2.png" width="1000" height="80" alt="Work Image" /></center>
+        
+                                                        </div> 
+                                                        <div class="col-md-12 margin-top">
+                                                                <b>
+                                                                    <h3>TARGET AUDIENCE</h3>
+                                                                </b>
+                                                                <center><img src="assets/images/URM.png" width="900" height="80" alt="Work Image" /></center>
+                                                                
+            
+                                                            </div> 
+                                                            <div class="col-md-12 margin-top">
+                                                                    <b>
+                                                                        <h3>USER INTERVIEW</h3>
+                                                                    </b>
+                                                                    <center><img src="assets/images/CNC.png" width="900" height="80" alt="Work Image" /></center>
+                                                                    <center><img src="assets/images/UI2.png" width="900" height="80" alt="Work Image" /></center>
+                                                                    
+                
+                                                                </div> 
+                                                                <div class="col-md-12 margin-top">
+                                                                        <b>
+                                                                            <h3>COMPETITORS</h3>
+                                                                        </b>
+                                                                        <center><img src="assets/images/NEW_ COMP.png" width="900" height="80" alt="Work Image" /></center>
+                                                                      
+                                                                        
+                    
+                                                                    </div> 
+                                                            
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>CLIENT PROFILE</h3>
+                                                    </b>
+                                                    <center><img src="assets/images/Client_Profile.png" width="900" height="90" alt="Work Image" /></center>
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>SITE MAP</h3>
+                                                    </b>
+                                                    <center><img src="assets/images/ESworkflow.png" width="900" height="90" alt="Work Image" /></center>
+
+                                                </div>
+                                                
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>WIREFRAMES</h3>
+                                                    </b>
+                                                    <center>
+                                                        <img src="assets/images/foto1.jpg" width="600" height="80" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/foto2.jpg" width="600" height="80" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/foto3.jpg" width="600" height="80" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/foto4.jpg" width="600" height="80" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                            <img src="assets/images/foto5.jpg" width="600" height="80" alt="Work Image"
+                                                            />
+                                                        </center>
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                    <b>
+                                                        <h3>SCREENS</h3>
+                                                    </b>
+                                                    <center>
+                                                        <img src="assets/images/GROUP1.jpg" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/services2 .jpg" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/GROUP3.jpg" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/GROUP4.jpg" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                    <center>
+                                                        <img src="assets/images/GROUP5.jpg" width="500" height="60" alt="Work Image"
+                                                        />
+                                                    </center>
+                                                   
+
+
+                                                </div>
+                                                <div class="col-md-12 margin-top">
+                                                        <b>
+                                                            <h3>INVISION PROTOTYPE</h3>
+                                                        </b>
+                                                           
+                                                        <img src="assets/images/LAPTOPNEW.png" alt="HTML tutorial" >
+                                                                    
+                                                                    <a href="https://invis.io/P4NVPWSVRKG">
+                                                                      <center>  SEE THE PROTOTYPE HERE </center>
+                                                                    </a>
+                                                                  
+                                                        </center>
+    
+                                                    </div>
+                                                <div class="col-md-12 margin-top">
+                                                        <b>
+                                                            <h3>USER TESTING</h3>
+                                                        </b>
+                                                        <center><img src="assets/images/UT.png" width="900" height="90" alt="Work Image" /></center>
+    
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    </section>
+    <section id="contact" class="section section-lighter text-center">
+        <div class="container">
+            <header>
+                <h2>
+                    <b>CONTACT</b>
+                </h2>
+                <hr>
+                <p>For any bussiness inquiries or to say hello don't hesitate to reach out</p>
+                <br>
+                <br>
+                <h3>
+                    <b>SANTANAJ.DEVELOPER@GMAIL.COM</b>
+                </h3>
+            </header>
+        </div>
+    </section>
+
+    <footer class="footer-dark">
+        <div class="text-center container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.linkedin.com/in/jasminesantana/">
+                                <i class="ion-social-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SantanaJ">
+                                <i class="ion-social-github"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="footer-message">COPYRIGHT © 2018 </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+    <script src="assets/js/packages.min.js"></script>
+    <script src="assets/js/theme.min.js"></script>
+    <script src="assets/js/map.min.js"></script>
+    <script src="assets/js/contact.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+</body>
+
+</html>
