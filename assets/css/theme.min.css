@@ -566,7 +566,7 @@ img{max-width:100%;height:auto;}
 .section-overlay{position:relative;}
 .section-overlay:after{content:'';width:100%;height:100%;position:absolute;left:0;top:0;background:#fff;opacity:.9;z-index:0;}
 .section-overlay-dark{position:relative;}
-.section-overlay-dark:after{content:'';width:100%;height:100%;position:absolute;left:0;top:0;background:rgba(55, 101, 143, 0.301);z-index:0;}
+.section-overlay-dark:after{content:'';width:100%;height:100%;position:absolute;left:0;top:0;background:rgba(12, 72, 151, 0.349);z-index:0;}
 .section-overlay-video{position:relative;}
 .section-overlay-video:after{content:'';width:100%;height:100%;position:absolute;left:0;top:0;background:rgba(255, 255, 255, 0.86);z-index:-1;}
 .inner{z-index:99 !important;height:100%;}
@@ -2446,3 +2446,13 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 .ion-xbox:before{content:"\f30c";}
 .os-animation{opacity:0;}
 .os-animation.animated{opacity:1;}
+
+#boldf{
+    color:rgb(60, 71, 172);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size:23px;
+}
+
+#purple{
+    color:rgb(60, 71, 172);
+}
