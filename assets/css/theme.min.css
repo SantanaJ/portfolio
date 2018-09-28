@@ -2456,3 +2456,20 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 #purple{
     color:rgb(60, 71, 172);
 }
+
+#yellow{
+    color:rgb(131, 255, 43);
+}
+
+#texb{
+    color: rgb(7, 0, 36);
+    font-weight: 80px;
+    /* text-shadow: 1px 1px #040118; */
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size:20px;
+    letter-spacing: 1px;
+}
+
+#tex{
+    color: rgb(131, 255, 43);
+}
